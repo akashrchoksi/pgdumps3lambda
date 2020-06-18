@@ -1,4 +1,5 @@
-This is very simple ruby script which able to take backup from postgres to s3 using pg_dump and awscli command line
+This is very simple ruby script (compitable with rub 2.5 version only) which able to take backup from postgres to s3 using pg_dump and awscli command line.
+
 
 # postgresql-s3-lambda-backup(serverless)
 By using this script (written in ruby) at aws lambda function with ruby 2.5 runtime  you can able to take native backup from postgres db server to Amazon S3 bucket.
